@@ -1,14 +1,14 @@
 # for mac users ( with homebrew using M series chips )
 COMPILE CODE 
 
-gcc uphill_car.c -o main \
+1) gcc uphill_car.c -o main \
   -I/opt/homebrew/include \
   -L/opt/homebrew/lib \
   -lraylib \
   -framework Cocoa -framework IOKit -framework CoreVideo -framework OpenGL
 
 RUN 
-./main
+2) ./main
 
 # for window users to compile this use the following code
 # 1) make a file build.sh and write the code 
